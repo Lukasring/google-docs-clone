@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.10.5",
+    "mongoose": "^5.12.5",
+    "socket.io": "^4.0.1",
+    "typescript": "^4.2.4",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/socket.io": "^2.1.13",
+    "nodemon": "^2.0.7"
+  }
+}
